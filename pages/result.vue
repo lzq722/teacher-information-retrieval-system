@@ -68,7 +68,7 @@ const TF_IDF_docs = ref<Array< {
     };
 }>>([])//TF-IDF计算结果
 
-const API_KEY = "63923be80b2d43b8972e4d4fdd58397a"// 生成的API_KEY
+const API_KEY = "#"// 这里需要修改成自己的API_KEY
 
 const navigateToResult = () => {//相当于每次重新搜索刷新页面
   if (input.value.trim()) {
