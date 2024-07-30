@@ -1,49 +1,19 @@
-# Element Plus with Nuxt 3 Minimal Starter
+教师信息检索系统
+使用倒排索引进行搜索，分词使用jieba分词工具
+权重采用TF-IDF，返回结果按照余弦相似度进行排序
 
-<pre align="center">
-🏗 Working in Progress
-</pre>
+## 安装
 
-SSR Preview: <https://element-plus-nuxt.vercel.app/>
-
-SSG Preview: <https://nuxt-starter.element-plus.org/>
-
-We recommend to look at the [Nuxt 3 Docs](https://nuxt.com/) and [Element Plus Docs](https://element-plus.org/).
-
-## Setup
-
-Make sure to install the dependencies
+确保安装依赖
 
 ```bash
 pnpm install
 ```
 
-## Development
+## 开发
 
-Start the development server on `http://localhost:3000`
+在 `http://localhost:3000` 上启动服务器
 
 ```bash
 pnpm dev
 ```
-
-More info about [nuxt deployment](https://nuxt.com/docs/getting-started/deployment#presets).
-
-Run `npm run generate` to generate static html in `.output/public`.
-
-## Production
-
-Build the application for production:
-
-```bash
-pnpm build
-```
-
-Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment).
-
-## Deploy
-
-You need set `NITRO_PRESET=vercel-edge`, see [Nuxt on Vercel](https://vercel.com/docs/frameworks/nuxt#edge-functions).
-
-## Ref
-
-- [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3)
