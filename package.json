@@ -1,0 +1,51 @@
+{
+  "name": "element-plus-nuxt-starter",
+  "packageManager": "pnpm@8.12.1",
+  "version": "0.1.0",
+  "description": "Element Plus with Nuxt 3 Minimal Starter",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/element-plus/element-plus-nuxt-starter"
+  },
+  "author": "Element Plus Team",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "preview": "nuxi preview",
+    "start": "node .output/server/index.mjs",
+    "generate": "nuxi generate",
+    "postinstall": "nuxi prepare"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@node-rs/jieba": "^1.10.3",
+    "element-plus": "^2.7.5",
+    "jieba-js": "^1.0.2"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.9",
+    "@nuxtjs/color-mode": "^3.4.1",
+    "@pinia/nuxt": "^0.5.1",
+    "@unocss/nuxt": "^0.60.4",
+    "@vueuse/nuxt": "^10.10.0",
+    "consola": "^3.2.3",
+    "nuxt": "^3.11.2",
+    "sass": "^1.77.4",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "pinia": "^2.1.6"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "webpack",
+        "vite",
+        "vue"
+      ]
+    }
+  }
+}
